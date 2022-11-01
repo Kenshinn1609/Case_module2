@@ -1,8 +1,8 @@
 import * as readline from 'readline-sync';
-import {Controller} from "./Controller";
-import {AdminManager} from "./AdminManager";
-import {UserManager} from "./UserManager";
-import {User} from "./User";
+import {Controller} from "./src/Controller";
+import {AdminManager} from "./src/AdminManager";
+import {UserManager} from "./src/UserManager";
+import {User} from "./src/User";
 
 UserManager.addUser('hoang','123',50000)
 UserManager.addUser('kens','123',50000)
